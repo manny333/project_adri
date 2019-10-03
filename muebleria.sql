@@ -57,6 +57,9 @@ create table tcusuarios(
     cNombre varchar(150) not null,
     cApellidoPaterno varchar(150) not null,
     cApellidoMaterno varchar(150) not null,
+    cCorreo varchar(250) not null,
+    cContraseña varchar(150) not null,
+    cImagen varchar(150) not null,
     idTipoUsuario int not null
 )Engine=InnoDB charset=utf8;
 
@@ -65,3 +68,5 @@ create table tctipousuario(
     cNombre varchar(50) not null,
     cDescripcion varchar(150) not null
 )Engine=InnoDB charset=utf8;
+
+
